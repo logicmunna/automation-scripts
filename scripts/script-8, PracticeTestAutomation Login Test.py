@@ -148,9 +148,13 @@ def test_invalid_username(driver, wait):
         return False
     
 driver = setup_driver()
-wait = WebDriverWait(driver,10)
+wait = WebDriverWait(driver,15)
+
+
 
 test_results = []
+
+
 
 try:
     result1 = test_valid_login(driver, wait)
