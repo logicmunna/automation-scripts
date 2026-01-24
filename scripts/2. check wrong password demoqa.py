@@ -8,10 +8,14 @@ import time
 
 options = Options()
 options.add_argument('--log-level=3')
+
+
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
 ser = Service(r"C:\chromedriver\chromedriver.exe")
 driver = webdriver.Chrome(service=ser, options=options)
+
+
 
 driver.maximize_window()
 wait = WebDriverWait(driver, 10)
