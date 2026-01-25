@@ -63,4 +63,4 @@ except Exception as e:
 finally:
     time.sleep(3)
     driver.quit()
-    print("Browser Closed")
+    print("Browser Closed ")
