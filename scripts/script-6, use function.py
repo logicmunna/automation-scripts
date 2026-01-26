@@ -68,4 +68,4 @@ except Exception as e:
 
 finally:
     driver.quit()
-    print("Browser closed")
+    print("Browser  closed")
