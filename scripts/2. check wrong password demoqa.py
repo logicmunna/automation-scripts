@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 import time
 
 options = Options()
+
 options.add_argument('--log-level=3')
 
 
